@@ -1,3 +1,14 @@
+# Names: Nathan Foran, Daniel Carpintero, Oluwalayomi Giwa
+# Date: December 2025
+# Program: Car Inventory System
+# Description:
+# This program allows a car dealership to manage its inventory by adding,
+# searching, editing, removing, printing, and saving car records.
+# Cars are stored in a list of Car objects and persisted to a file (data.txt).
+# Inputs include car details entered by the user.
+# Processing includes duplicate checks, file I/O, and menu-driven operations.
+# Outputs include confirmation messages and formatted car listings.
+
 class Car:
     def __init__(self, car_id, name, make, body, year, value):
         self.id = int(car_id)
